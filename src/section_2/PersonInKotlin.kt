@@ -1,3 +1,3 @@
 package section_2
 
-class PersonInKotlin (val id: Int=1, val name:String="")
+class PersonInKotlin (val id: Int, val name:String)

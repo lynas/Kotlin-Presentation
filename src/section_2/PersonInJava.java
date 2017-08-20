@@ -1,8 +1,8 @@
 package section_2;
 
 public class PersonInJava {
-    int id;
-    String name;
+    private int id;
+    private String name;
 
     public PersonInJava(int id, String name) {
         this.id = id;

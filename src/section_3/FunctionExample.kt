@@ -77,7 +77,7 @@ fun addNumbers(num1:Int, num2:Int) : Int {
 
 
 
-fun unlimited(vararg nums: Int) {
+fun unlimited(vararg numbers: Int) {
 
 }
 
@@ -115,8 +115,8 @@ fun unlimited(vararg nums: Int) {
 
 
 
-fun testReturn() : Pair<Int, Int>{ return Pair(1,2)}
-fun testReturn2() : Triple<String, String,Int>{
+fun testPair() : Pair<Int, Int>{ return Pair(1,2)}
+fun testTriple() : Triple<String, String,Int>{
     return Triple("","",44)
 }
 
@@ -135,6 +135,6 @@ fun testReturn2() : Triple<String, String,Int>{
 
 
 fun input(){
-    val (firstName, lastName, age) = testReturn2()
+    val (firstName, lastName, age) = testTriple()
     print(firstName)
 }
