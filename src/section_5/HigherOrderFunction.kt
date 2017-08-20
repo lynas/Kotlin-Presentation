@@ -21,6 +21,8 @@ fun main(args: Array<String>) {
         x + y
     })
 }
+// lambda last param
+// jdbc connection
 
 
 fun using(obj: Closeable, action: () -> Unit) {
@@ -44,7 +46,7 @@ enum class Type {
     TYPE1,TYPE2,TYPE3
 }
 
-fun withFunction(type:Type) {
+fun whenFunction(type:Type) {
     when (type) {
         Type.TYPE1 -> println("T1")
         Type.TYPE2 -> println("T2")

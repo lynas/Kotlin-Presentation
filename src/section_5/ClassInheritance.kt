@@ -13,3 +13,5 @@ fun validVacation(person: Person) {
         }
     }
 }
+
+// smart casting
