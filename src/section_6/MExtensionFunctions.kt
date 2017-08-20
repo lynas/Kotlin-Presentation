@@ -12,3 +12,4 @@ fun main(args: Array<String>) {
 
 
 fun String.shouldEqual(value: String) = value == this
+// infix
