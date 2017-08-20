@@ -6,5 +6,6 @@ object Global{
 
 fun main(args: Array<String>) {
     println(Global.PI)
+    val personInJava = PersonInJava(1,"Sazzad")
 }
 
