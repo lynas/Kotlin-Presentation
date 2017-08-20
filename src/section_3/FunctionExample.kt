@@ -45,6 +45,7 @@ fun printMe(name: String) {
 fun addNumbers(num1:Int, num2:Int) : Int {
     return num1 + num2
 }
+// single line expression
 
 
 
@@ -82,7 +83,7 @@ fun unlimited(vararg numbers: Int) {
 }
 
 
-
+// loop over
 
 
 
@@ -137,4 +138,27 @@ fun testTriple() : Triple<String, String,Int>{
 fun input(){
     val (firstName, lastName, age) = testTriple()
     print(firstName)
+
+    val list = listOf(Pair("dhaka","Bangladesh"), "delli" to "india")
+
+    for (item in list) {
+
+    }
+
 }
+
+// deconstruction
+
+
+
+
+
+
+
+
+
+
+
+
+
+

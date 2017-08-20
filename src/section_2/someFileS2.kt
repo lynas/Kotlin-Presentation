@@ -9,3 +9,7 @@ fun main(args: Array<String>) {
     val personInJava = PersonInJava(1,"Sazzad")
 }
 
+// data class
+// copy
+// named parameter
+// default value
