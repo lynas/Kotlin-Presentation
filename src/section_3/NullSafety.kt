@@ -16,3 +16,8 @@ fun personJava(person: PersonInJava?) {
     }
 
 }
+
+
+fun printPersonName(name: String) {
+    println(name)
+}
