@@ -136,8 +136,8 @@ fun testTriple() : Triple<String, String,Int>{
 
 
 fun input(){
-    val (firstName, lastName, age) = testTriple()
-    print(firstName)
+    val data = testTriple()
+    print(data.first)
 
     val list = listOf(Pair("dhaka","Bangladesh"), "delli" to "india")
 
