@@ -17,19 +17,18 @@ fun mySum(x: Int, y: Int): Int {
 fun main(args: Array<String>) {
     higherOrder(::mySum)
 
-    higherOrder({ x, y ->
-        x + y
-    })
+    higherOrder{
+        x, y ->
+            x + y
+    }
 }
 // lambda last param
 // jdbc connection
 
 
 fun using(obj: Closeable, action: () -> Unit) {
-    try {
+    obj.use { obj ->
         action()
-    } finally {
-        obj.close()
     }
 }
 

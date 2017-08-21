@@ -6,10 +6,13 @@ fun String.hello() {
 
 fun main(args: Array<String>) {
     println("".hello())
-    "this".shouldEqual("this")
+    "this" shouldEqual "this"
 
 }
 
 
-fun String.shouldEqual(value: String) = value == this
+infix fun String.shouldEqual(value: String) : Boolean {
+    return value == this
+}
+
 // infix

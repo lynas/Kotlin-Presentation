@@ -3,9 +3,9 @@ package section_4
 fun conditionTest1(input: Int) {
     val result = if (input > 100) {
         println("GT")
-        30
+        "GT"
     } else {
         println("LT")
-        40
+        "LT"
     }
 }
