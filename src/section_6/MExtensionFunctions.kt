@@ -6,12 +6,12 @@ fun String.hello() {
 
 fun main(args: Array<String>) {
     println("".hello())
-    "this" shouldEqual "this"
+    "this".shouldEqual("this")
 
 }
 
 
-infix fun String.shouldEqual(value: String) : Boolean {
+fun String.shouldEqual(value: String) : Boolean {
     return value == this
 }
 
