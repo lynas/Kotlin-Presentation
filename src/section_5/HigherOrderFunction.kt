@@ -32,6 +32,21 @@ fun using(obj: Closeable, action: () -> Unit) {
     }
 }
 
+fun using2(obj: Closeable, action: () -> Unit) {
+    try {
+        action()
+    } finally {
+        obj.close()
+    }
+}
+
+fun main(args: Array<String>) {
+    using2(closableObject) {
+
+    }
+}
+
+
 fun withFn(file:String) {
     with(File(file)) {
         if (isFile) {
