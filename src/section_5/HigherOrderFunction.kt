@@ -27,7 +27,7 @@ fun main(args: Array<String>) {
 
 
 fun using(obj: Closeable, action: () -> Unit) {
-    obj.use { obj ->
+    obj.use {
         action()
     }
 }
